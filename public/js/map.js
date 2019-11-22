@@ -142,7 +142,7 @@ function initMap(center) {
 
       // Set the position of the marker using the place ID and location.
       marker.setPlace({
-        placeId: newEvent.placeid,
+        placeid: newEvent.placeid,
         location: {lat: parseFloat(newEvent.latitude), lng: parseFloat(newEvent.longitude)}
       });
 
