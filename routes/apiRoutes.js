@@ -65,7 +65,7 @@ module.exports = function(app, io) {
         // creator_id,
         eventname,
         address,
-        placeid: placeid,
+        // placeid: placeid,
         groupsize: 5,
         description,
         current_groupsize: 1,
