@@ -62,10 +62,10 @@ module.exports = function(app, io) {
     //   const creator_id = (userResults !== undefined) ? userResults.id : 'defacto';
       // Create new event entry in DB
       db.EventData.create({    
-        // creator_id,
+        creator_id,
         eventname,
         address,
-        // placeid: placeid,
+        placeid: placeid,
         groupsize: 5,
         description,
         current_groupsize: 1,
