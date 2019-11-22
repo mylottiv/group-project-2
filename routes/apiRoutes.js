@@ -88,7 +88,7 @@ module.exports = function(app, io) {
 
           // Send a 201 'Created' status back to the client
           // Not neccessary to send the event data back to client as that will already be received from the socket event
-          res.send('testing jquery prowess').status(201);
+          res.status(201);
         }).catch(function(err) {
         console.log(err);
       });
