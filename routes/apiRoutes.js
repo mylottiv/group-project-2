@@ -84,7 +84,7 @@ module.exports = function(app, io) {
       //   })
         .then(function(chatResults) {
           // Emit 'new event' event with data for new event
-          io.sockets.emit('new event', eventResults);
+          // io.sockets.emit('new event', eventResults);
 
           // Send a 201 'Created' status back to the client
           // Not neccessary to send the event data back to client as that will already be received from the socket event
