@@ -4,15 +4,15 @@ module.exports = function(sequelize, DataTypes) {
     eventname:DataTypes.TEXT,
     address:DataTypes.STRING,
     // placeid:DataTypes.STRING,
-    groupsize:DataTypes.INTEGER,
+    // groupsize:DataTypes.INTEGER,
     // description:DataTypes.STRING,
-    current_groupsize:DataTypes.INTEGER,
-    latitude:DataTypes.FLOAT,
-    longitude:DataTypes.FLOAT,
-    active: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: false
-    }
+    // current_groupsize:DataTypes.INTEGER,
+    // latitude:DataTypes.FLOAT,
+    // longitude:DataTypes.FLOAT,
+    // active: {
+    //   type: DataTypes.BOOLEAN,
+    //   defaultValue: false
+    // }
   });
 
   // EventData.associate = function(models) {
